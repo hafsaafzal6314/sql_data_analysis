@@ -8,7 +8,7 @@ The dataset contains 10,000 e-commerce records with information about customers,
 
 ## Objective
 
-The main objective of this project is to understand how SQL can be used to work with structured data and perform useful data analysis.
+The objective of this project is to understand how SQL can be used to work with structured data and perform data analysis.
 
 ## Dataset
 
@@ -18,8 +18,6 @@ The main objective of this project is to understand how SQL can be used to work 
 - Main Table: ecommerce_data
 
 ## SQL Concepts Used
-
-The project covers the following SQL concepts:
 
 - SELECT
 - WHERE
@@ -36,12 +34,12 @@ The project covers the following SQL concepts:
 
 ## Analysis Performed
 
-The SQL queries were used to analyze:
+The queries were used to analyze:
 
 - Customer information
 - Product prices
 - Product categories
-- Order information
+- Orders
 - Quantity sold
 - Total sales
 - Average prices and ratings
@@ -50,14 +48,14 @@ The SQL queries were used to analyze:
 
 ## Database Tables
 
-The project uses the following tables:
+The project contains the following tables:
 
-- `ecommerce_data`
-- `customers`
-- `products`
-- `orders`
+- ecommerce_data
+- customers
+- products
+- orders
 
-The original e-commerce dataset is stored in `ecommerce_data`, while the other tables were created from the dataset to demonstrate SQL joins and relational queries.
+The ecommerce_data table contains the original dataset. The other tables were created from the dataset to demonstrate SQL joins and relational queries.
 
 ## Tools Used
 
@@ -67,23 +65,14 @@ The original e-commerce dataset is stored in `ecommerce_data`, while the other t
 
 ## Project Files
 
-```text
-SQL-Data-Analysis/
-│
-├── queries.sql
-├── README.md
-│
-└── screenshots/
-    ├── select_query.png
-    ├── where_query.png
-    ├── orderby_query.png
-    ├── groupby_query.png
-    ├── aggregate_sum_query.png
-    ├── innerjoin_query.png
-    ├── leftjoin_query.png
-    ├── rightjoin_query.png
-    ├── view_query.png
-    └── index_query.png
-final_query.png
-## Author
-Hafsa Mohammed Afzal
+- queries.sql - Contains all SQL queries used in the project.
+- screenshots - Contains screenshots of SQL query outputs.
+- README.md - Project documentation.
+
+## Learning Outcome
+
+Through this project, I learned how to query and analyze structured data using SQL. I practiced filtering, sorting, grouping, and aggregating data. I also learned how to use joins, subqueries, views, and indexes for data analysis.
+
+## Conclusion
+
+This project helped me gain practical experience with MySQL and understand how SQL can be used for data analysis and working with relational data.
